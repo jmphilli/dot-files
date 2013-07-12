@@ -1,7 +1,7 @@
 source ~/.bash_aliases
 source ~/.git_prompt
 
-export PS1="\w \$(parse_git_branch) $ "
+export PS1="\w \$(parse_git_branch)$ "
 alias spt="cd ~/Sites/trunk/"
 
 ##
