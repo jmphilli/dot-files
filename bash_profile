@@ -2,7 +2,7 @@ source ~/.bash_aliases
 source ~/.git_prompt
 source ~/.svn_prompt
 
-export PS1="\w \$(parse_git_branch) \$(parse_svn_branch) $ "
+export PS1="\w \$(parse_git_branch)\$(parse_svn_branch)$ "
 alias spt="cd ~/Sites/trunk/"
 
 ##
