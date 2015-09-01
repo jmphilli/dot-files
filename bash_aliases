@@ -1,5 +1,7 @@
 #general stuff
-alias vi='vim'
+alias chomp="perl -pi -e 'chomp if eof'"
+alias vi="vim"
+alias now="date +'%Y-%m-%dT%H:%M:%SZ'"
 
 #svn stuff
 alias ss="svn status"
